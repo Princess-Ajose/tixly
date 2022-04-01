@@ -1,0 +1,339 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;1,500&family=Poppins:wght@100;200;300;400&display=swap');
+@media screen and (max-width: 900px){
+   body{
+      width: 100%;
+   }
+   main{ 
+      width: 100%;
+   }
+}
+@media screen and (min-width: 500px) {
+   body{ width: 100%;
+   }
+   main{
+      width: 100%;
+   }
+   
+}
+
+*{
+   margin: 0px;
+   padding: 0px;
+}
+body{
+   background-color: white;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  background-color: azure;
+  font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+   border: 2px solid white;
+}
+li{
+   margin: 0px 7px;
+}
+ul{
+   list-style: none;
+   display: flex;
+
+}
+.u{
+   text-decoration: underline;
+}
+.hey{
+   padding: 10px;
+   font-size: 30px;
+   font-weight: 100;
+   font-style: italic;
+}
+a{
+   text-decoration: none;
+   font-family:'Times New Roman', Times, serif;
+   color:black;
+   letter-spacing: 2px;
+   word-spacing: 1px;
+   font-size: 10px;
+   text-transform: uppercase;
+   font-weight: 100;
+
+}
+a:hover{
+   text-decoration: underline;
+   border: 2px solid rgb(240, 245, 255);
+   padding: 7px;
+   background-color:beige;
+}
+:active{
+   text-decoration: underline;
+}
+.love img{
+  width: 85%;
+  height: 80%;
+
+}
+.set1{ 
+   width: 50%;
+   padding: 70px;
+   margin-top: 50px 0px 100px 0px;
+}
+.set1 h1{
+   font-size: 45px;
+   font-weight:300;
+   font-family: 'Times New Roman', Times, serif;
+  text-transform: capitalize;
+  margin-bottom: 27px;
+  margin-top: 10px;
+
+}
+.set1 p{
+   font-size: 18px;
+   color: #4e4b4b;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container{
+   display: flex;
+   margin: 50px 0px 0px 50px;
+
+}
+.button1{
+   background: #000;
+   padding: 10px 20px;
+   margin: 1rem 5px;
+   color: white;
+   text-transform: uppercase;
+   width: 30px 15px;
+}
+.button1:hover{
+   background-color: white;
+   cursor:pointer;
+   color: black;
+
+}
+.container2{
+   width: 98%;
+   margin: auto;
+   text-align: center;
+
+}
+.babywears img{
+   width: 95%;
+   height: 80%;
+
+}
+
+.row{
+   display: grid;
+   margin: 3% auto;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.text2{
+   text-align: center;
+   padding: 0;
+   margin: 0;
+}
+.text2 p{
+   font-size: 20px;
+}
+.text2 h1{
+   font-size: 29px
+
+}
+.row .but{
+   background-color: black;
+   color: white;
+   padding: 1rem 1.7rem;
+   margin: 10px 5px;
+   text-align: center;
+   text-transform: uppercase;
+   position: relative;
+   bottom: 7%;
+}
+.row .but:hover{
+ background-color: white;
+ color: black;
+ cursor: pointer;
+}
+.container3{
+   display: flex;
+   margin: 60px 0px 0px;
+   
+}
+.love1 img{
+   width: 85%;
+   height: 80%;
+}
+.set2 h1{
+   font-size: 45px;
+   font-weight:100;
+   font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 27px;
+  margin-top: 10px;
+
+}
+.set2 p{
+   font-size: 19px;
+   color: #4e4b4b;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.set2{
+   width: 50%;
+   padding: 70px;
+   margin-top: 60px 0px 110px 0px;
+}
+.button2{
+   background: #000;
+   padding: 20px 40px;
+   margin: 9rem 20px 17px 0rem;
+   color: white;
+   text-transform: uppercase;
+
+}
+.button2:hover{
+   background-color: white;
+   cursor:pointer;
+   color: black;
+
+}
+.container4{
+   width: 98%;
+   margin: auto;
+   text-align: center;
+}
+.text4{
+   
+   font-size: 30px;
+   font-weight: 200;
+}
+.img{
+   display: grid;
+   margin: 3% auto;
+   grid-template-columns: repeat(4, 1fr);
+   
+}
+.clothes img{
+   width: 93%;
+   height: 100%;
+
+}
+.more{
+   background: #313030;
+   padding: 10px 20px;
+   color: white;
+   text-transform: uppercase;
+
+}
+.more:hover{
+   background-color: white;
+   cursor:pointer;
+   color: black;
+
+}
+footer{
+   margin-top: 70px;
+   background-color: #333232;
+   height:  75vh;
+   width: 100%;
+}
+.container5{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+   padding: 17px;
+   margin: auto;
+}
+.container5 h3{
+   font-size: 30px;
+}
+.add{
+   display: flex;
+   margin: 8% auto;
+}
+.add p{
+   position: relative;
+   top: 50%;
+   right: 14%;
+   width: 90px;
+  padding: 0;
+}
+
+ .add a{
+   padding: 1%;
+ position: relative;
+ top: 0%;
+ right: 11%;
+ margin: 10% 0%;
+ padding: 0% 0%;
+ color: white;
+ text-transform: lowercase;
+ text-decoration: underline;
+ border: 1px solid #333232;
+} 
+.add a:hover{
+   color: white;
+   background-color: #333232;
+}
+.sub button{
+   margin: 7px;
+   padding: 8px 81px 8px;
+  background-color: #e7b93ad5;
+  color: black;
+  text-align: center;
+  text-transform: capitalize;
+  border-radius: 7%;
+
+}
+.sub .button:hover{
+   cursor: pointer;
+}
+.sub .input{
+   margin: 8px;
+}
+.sub input{
+   padding: 10px 1px;
+   border-radius: 7%;
+   border: 1px solid #333232;
+}
+.sub ::placeholder{
+   color: black;
+   text-transform: capitalize;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
